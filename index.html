@@ -41,6 +41,13 @@
                 </div>
                 <div class="col-12 col-sm">
                     <img src="img/logo.png" class="img-fluid">
+
+                </div>
+                <div class="col-12 col-sm align-self-center">
+                    <a href="#reserve-table">
+                        <button type="submit" class="col-12 btn btn-warning btn-block text-white">Reserve Table</button>
+                    </a>
+                   
                 </div>
             </div>
         </div>
@@ -68,8 +75,14 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col-12 col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class="media">
+                    
+                    <div class="media-body">
+                       <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                       <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                    </div>
+                    <img src="img/buffet.png" class="img-thumbnail d-flex ml-3 align-self-center ">
+                </div>
             </div>
         </div>
 
@@ -86,6 +99,46 @@
                    <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
                 </div>
               </div>
+            </div>
+        </div>
+
+        <div id="reserve-table" class="row row-content align-items-center">
+            <div class="col-12 col-sm-8 offset-sm-2">
+                <div class="card">
+                    <h3 class="card-header bg-warning text-light ">Reserve a table</h3>
+                    <div class="card-body">
+                        <div class="container">
+                        <form>
+                            <div class="form-group row align-items-center">
+                                <label class="col-12 col-sm-2 col-form-label ">Number of Guests</label>
+                            <div class="col"> 
+                                <input type="radio" name="guests" id="1" value="1" class="mr-1" ><label for="1" class="">1 &nbsp;</label> 
+                                <input type="radio" name="guests"id="2" value="2" class="mr-1"><label for="2" class="">2 &nbsp;</label> 
+                                <input type="radio" name="guests"id="3" value="3" class="mr-1"><label for="3" class="">3 &nbsp;</label> 
+                                <input type="radio" name="guests"id="4" value="4" class="mr-1"><label for="4" class="">4 &nbsp;</label> 
+                                <input type="radio" name="guests"id="5" value="5" class="mr-1"><label for="5" class="">5 &nbsp;</label> 
+                                <input type="radio" name="guests"id="6" value="6" class="mr-1"><label for="6" class="">6 &nbsp;</label> 
+                            </div>    
+                            </div>
+                            <div class="form-group row">
+                                <label for="Date" class="col-form-label col-12 col-sm-2">Date and Time</label>
+                                <div class="col-12 col-sm-4">
+                                   <input id="Date"type="date" placeholder="Date" class=" form-control " name="date">
+                                </div>
+                                <div class="col-12 col-sm-4 offset-sm-1">
+                                   <input placeholder="Time" type="time"class="form-control " name="time"> 
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-12 offset-sm-2">
+                                   <button type="submit" class=" btn btn-primary text-light">Reserve</button>
+                                </div>
+                            </div>
+
+                        </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
